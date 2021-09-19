@@ -2,7 +2,16 @@
 .selector-for-some-widget {
     box-sizing: content-box;
   }
-  
+  .text1{
+      color:dodgerblue;
+      font-size: 100px ;
+      font-weight:bold;
+      margin-right: -0.24px;
+
+  }
+  .text2{
+      font-size: 30px;
+  }
   
   navbar
   {
@@ -112,11 +121,11 @@
       transition: all 1.5s ease;
        
   }
-  .card1 :hover , .card2 :hover , .card3 :hover
+  /* .card1 :hover , .card2 :hover , .card3 :hover
   {
    transform: scale(1.1);
   }
-  
+   */
 
 
 .carousel-caption
@@ -163,7 +172,11 @@
     margin-bottom: -24px;
 }
 
-
+.car .carouselslide .carousel-inner .carousel-item .text{
+    color:white; font-size:50px; position:absolute; top:40% ; right:50%; transform:translate(-50%,-50%);
+    margin-right:50px;
+    margin-top: 5px ;
+}
 
 
 #slider{
@@ -203,17 +216,17 @@ margin-top: 30px;
 }
 
 
-.inner{
+/* .inner{
     overflow: hidden;
-}
+} */
 
-.inner img{
+/* .inner img{
     transition: all 1.5s ease;
     
 }
 .inner:hover img{
     transform: scale(1.5);
-}
+} */
 
 .card-text{
     color:  #aaaaa1;

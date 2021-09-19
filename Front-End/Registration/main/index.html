@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="shortcut icon" type="images/x-icon" href="images/hospital.png">
     
-     <title>hospital</title>
+     <title>HMIS</title>
 </head>
 <body>
     
@@ -49,14 +49,30 @@
       
       <!--Start Carousel-->
       <div class="car">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleCaptions" class="carouselslide" data-ride="carousel">
 
     <div class="carousel-inner">
       <div class="carousel-item active">
           
           
-    <img src="images/Untitled.png" class="d-block w-100" height="536px" >
-     
+    <img src="images/Untitled.png" class="d-block w-100" height="536px" style="position:relative" >
+     <div class="text"  >
+      <h1 style="font-size:100px; color:#60a7f3; ;
+       font-weight: bold;
+       text-shadow: 5px 5px #fff;"
+
+       > Med-Care <h1>
+      <br>
+      <div>
+      
+      <br>
+
+      <div class="">
+       <button type="button" onClick="document.getElementById('department').scrollIntoView();" class="btn btn-primary" style="  font-size:50px; margin-left: 50px;
+       border: transparent; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color:#60a7f3;"> GET STARTED</button>
+      </div>
+</div>
+     </div>
           
    
         </div>
@@ -84,15 +100,11 @@
 
     <div class="card shadow" style="width: 20rem;">
   <div class="inner">
-          <img src="images/patient.jpg" style="height:250px;" class="card-img-top" alt=" surgery">
+          <img src="images/patients.png"  class="card-img-top" alt=" surgery">
 </div>
 
   <div class="card-body  ">
-    <h5 class="card-title" style="text-align:center; color:#0069d9">Patient</h5>
-   
-
-  
-
+    <h5 class="card-title" style="text-align:center; color:#0069d9"> <a href="../Patients/login/P_user_login.html">Patient</a></h5>
   </div>
 </div>
 </div>  
@@ -102,9 +114,9 @@
     <div class="card shadow" style="width: 20rem;">
     <div class="inner">
         
-          <img src="images/doctor.png" style="height:250px;" class="card-img-top" alt="Dental Care">
+          <img src="images/doctor.png"  class="card-img-top" alt="Dental Care">
   <div class="card-body  ">
-    <h5 class="card-title" style="text-align:center; color:#0069d9">Doctor</h5>
+    <h5 class="card-title" style="text-align:center; color:#0069d9"><a href="../Doctors/login/D_user_login.html">Doctors</a></h5>
 
   </div>
 </div>
@@ -117,9 +129,9 @@
 
     <div class="card shadow" style="width: 20rem;">
     <div class="inner">
-  <img src="images/admin.jpg" style="height:250px;"class="card-img-top" alt="Eye Care"></div>
+  <img src="images/admin.png" class="card-img-top" alt=""></div>
   <div class="card-body">
-    <h5 class="card-title" style="text-align:center ;color:#0069d9">Admin</h5>
+    <h5 class="card-title" style="text-align:center ;color:#0069d9"><a href="../Admin/login/A_user_login.html">Admin</a></h5>
 
 
   </div>
