@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <title>login</title>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="D_user_login.css">
-    <title> Doctor Login</title>
+    <!--link rel="stylesheet" href="bootstrap.css"-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="respond.min.js"></script>
+
 </head>
+
 <body>
- <!-- form section start -->
- <section class="w3l-workinghny-form">
-    <!-- /form -->
-    <div class="workinghny-form-grid">
-        <div class="wrapper">
-            <div class="logo">
-            </div>
-            <div class="workinghny-block-grid">
-                    <img src="images/5098293.jpg" class="img-responsive" alt="img" />
-                <div class="form-right-inf">
-                    
-               <div class="txt1">     <center><p class="txt">DOCTOR | lOGIN</p></center></div>
-                  
-                        <form action="#" class="signin-form" method="post">
-                                <label for="email_input">Email</label>
-                                <input id="email_input" type="email" class="validate">
-                                <label for="password_input">Password</label>
-                                <input id="password_input" type="password" class="validate">
-                                <div class="txt2"><a class="forget" href="../../Doctors/forget_password/D_forget_password.html">Forget your password?</a>   </div> 
 
-                        </form>
-                        <a href="../../Doctors/dashboard/D_dashboard.html" ><button class="login-btn">Login </button></a>
 
+    <section class="w3l-workinghny-form">
+        <div class="workinghny-form-grid">
+            <div class="wrapper">
+                <div class="logo">
+                </div>
+                <div class="workinghny-block-grid">
+                    <img src="images/candidate-login.png" width="600px" height="500px" style="object-fit: cover;">
+                    <div class="form-right-inf">
+                        <div class="grid-item" id="center">
+                            <p style="color: rgb(0, 162, 255); font-size: 50px;">Login</p><br>
+                            <input class="input1" type="text" placeholder="Username" required> </input><br>
+                            <input class="input1" type="password" placeholder="Password" required></input><br><br>
+                            <a href="../../Doctors/dashboard/D_dashboard.html"><button id="btn" type="submit"> <strong>
+                                    Login</strong></button><br></a>
+                            <a class="a1" href="../../Doctors/forget_password/D_forget_password.html" style="font-size: 15px;">forget your password?</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
