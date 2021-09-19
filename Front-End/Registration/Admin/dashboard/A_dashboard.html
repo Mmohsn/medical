@@ -1,100 +1,157 @@
 <!DOCTYPE html>
-<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
     <link rel="stylesheet" href="A_dashboard.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Admin Dashboard</title>
    </head>
 <body>
-
-<header>
-            <a href="#" class="logo">Hospital Management System</a>
-            <div class="navigation">
-            <a href="#" class="txt1">ADMIN</a>
-</div>
-</header>
-
-
   <div class="sidebar">
     <div class="logo-details">
-      <i class='bx bxl-c-plus-plus icon'></i>
-        <div class="logo_name">HIMS</div>
-        <i class='bx bx-menu' id="btn" ></i>
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">HMIS</span>
     </div>
-    <ul class="nav-list">
-    <li>
-        
-        <a href="#">
-          <i class='bx bx-grid-alt'></i>
-          <span class="links_name">Dashboard</span>
-        </a>
-         <span class="tooltip">Doctors</span>
-      </li>
-      <li>
-       <a href="#">
-         <i class='bx bx-user' ></i>
-         <span class="links_name">Users</span>
-       </a>
-       <span class="tooltip">User</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx bx-chat' ></i>
-         <span class="links_name">patients</span>
-       </a>
-       <span class="tooltip">patients</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx bx-pie-chart-alt-2' ></i>
-         <span class="links_name">Appointments</span>
-       </a>
-       <span class="tooltip">Appointments</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx bx-folder' ></i>
-         <span class="links_name">Reports</span>
-       </a>
-       <span class="tooltip">Reports</span>
-     </li>
-     <li>
-        <a href="#">
-          <i class='bx bx-user' ></i>
-          <span class="links_name">Logout</span>
-        </a>
-        <span class="tooltip">Logout</span>
-      </li>
-     <li>
-    </ul>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Users</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Doctors list</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Appointments</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Team</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name">Favrorites</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
   </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+    </nav>
+
+    <div class="home-content">
+     <center><h1 class="admin">ADMIN | DASHBOARD</h1></center> 
+     <div class="border"></div> 
+      <div class="overview-boxes">
+        <div class="box">
+            <div class="">
+              <div class="box-topic">
+                  <img src="icons/users.png" class="icon1">
+              </div>
+              <div class="number">
+                  <button class="bt1">Manage Users</button>
+              </div>
+                <span class="text"></span>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="">
+              <div class="box-topic">
+                  <img src="icons/doctor.png" class="icon1">
+              </div>
+              <div class="number">
+                  <button class="bt1">Manage Doctors</button>
+              </div>
+                <span class="text"></span>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="">
+              <div class="box-topic">
+                  <img src="icons/appointment.png" class="icon1">
+              </div>
+              <div class="number">
+                  <button class="bt1">Appointment</button>
+              </div>
+                <span class="text"></span>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="">
+              <div class="box-topic">
+                  <img src="icons/patient.png" class="icon1">
+              </div>
+              <div class="number">
+                  <button class="bt1">Manage Patients</button>
+              </div>
+                <span class="text"></span>
+            </div>
+          </div>
+            
+          </div>
+      </div>     
+    </div>
+  </section>
+
   <script>
-  let sidebar = document.querySelector(".sidebar");
-  let closeBtn = document.querySelector("#btn");
-  let searchBtn = document.querySelector(".bx-search");
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
 
-  closeBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("open");
-    menuBtnChange();//calling the function(optional)
-  });
-
-  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
-    sidebar.classList.toggle("open");
-    menuBtnChange(); //calling the function(optional)
-  });
-
-  // following are the code to change sidebar button(optional)
-  function menuBtnChange() {
-   if(sidebar.classList.contains("open")){
-     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
-   }else {
-     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
-   }
-  }
-  </script>
 </body>
 </html>
+
