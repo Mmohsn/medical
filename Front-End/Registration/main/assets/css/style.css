@@ -1382,3 +1382,15 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+.col-lg-2
+{
+    color:#BF584E;
+    font-size: 50px;
+  
+}
+
+iframe
+{
+    border-radius: 50px;
+}
